@@ -9,6 +9,6 @@ test("renders learn react link", () => {
 
 test("로고 이미지가 잘 나온다.", () => {
   render(<App />);
-  const logoEl = screen.getByAltText("logo");
+  const logoEl = screen.getByAltText("logo"); //이미지의 alt text로 가지고 오는것
   expect(logoEl).toBeInTheDocument(); // 로고가 document에 있는지?
 });
