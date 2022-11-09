@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import MyPage from "./component/MyPage";
+import JoinButton from "./component/JoinButton";
 
 function App() {
   return (
     <div className="App">
       <MyPage user={{ name: "kim" }} />
+      <JoinButton />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
